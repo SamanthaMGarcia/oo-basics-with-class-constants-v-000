@@ -14,7 +14,7 @@ BRANDS =[]
   end
 
   def brand=(brand)
-    self.size = 3
+    shoe.size = 3
     @brand = brand
     BRANDS << brand
   end
