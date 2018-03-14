@@ -14,7 +14,7 @@ BRANDS =[]
   end
 
   def brand=(brand)
-    @brand = brand
-    BRANDS << brand
+    @brand = size, brand
+    BRANDS << size, brand
   end
 end
